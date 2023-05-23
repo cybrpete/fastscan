@@ -3,6 +3,9 @@ A quick bash script with an unoriginal name which can be used to enumerate open 
 
 Usage:
 ```
+IP=192.168.1.1
 chmod +x fastscan
-./fastscan <IP>
+./fastscan $IP
 ```
+
+Output files will named nmap_A_ports_$IP.txt, this can be modified on line 15.
